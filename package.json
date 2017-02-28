@@ -1,0 +1,59 @@
+{
+  "name": "wp-starter",
+  "version": "0.0.1",
+  "description": "Project starter for Wordpress.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "prod": "gulp --production",
+    "dev:compile": "gulp compile",
+    "prod:compile": "gulp compile --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevebasford/wp-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevebasford/wp-starter/issues"
+  },
+  "homepage": "https://github.com/stevebasford/wp-starter#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.2",
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "browser-sync": "^2.14.0",
+    "del": "^2.2.2",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-filter": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^2.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^0.1.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "imagemin": "^5.2.2",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-input-range": "2.0.0",
+    "postcss-lh": "^1.1.4",
+    "postcss-media-minmax": "^2.1.2",
+    "postcss-reporter": "^1.4.1",
+    "stylelint": "^7.1.0"
+  },
+  "dependencies": {
+    "concise.css": "^4.1.2"
+  }
+}
